@@ -11,9 +11,9 @@ module NilBuster
     freak_out if super.nil?
     result
   end
-
+  
   def freak_out
-    raise 'You passed or returned nil. Shame on you!'
+    abort 'You passed or returned nil. Shame on you!'
   end
 end
 ```
