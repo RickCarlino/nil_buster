@@ -34,7 +34,7 @@ class Parrot
 end
 
 Parrot.new.say(nil)
-# => RuntimeError: You passed or returned nil. Shame on you!
+# => Dumps you to the terminal.
 Parrot.sit
-# => RuntimeError: You passed or returned nil. Shame on you!
+# => Dumps you to the terminal.
 ```
